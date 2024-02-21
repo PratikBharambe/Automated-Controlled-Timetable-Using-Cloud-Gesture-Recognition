@@ -8,13 +8,13 @@ import smtplib
 from supabase import create_client
 
 
-url = "https://ctbocdqgvhimayeqvqov.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0Ym9jZHFndmhpbWF5ZXF2cW92Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYzNjQ1MzEsImV4cCI6MjAyMTk0MDUzMX0.HHOqs4_KujahCS_V60CsKWjb0ky4UTO2qQNzdyV0sdU"
+url = ""
+key = ""
 supabase = create_client(url, key)
 
 def sendMail(email_receiver, body):
     email_sender = "bharambepratik2002@gmail.com"
-    email_password = "yhexjdsegqiforwq"
+    email_password = ""
     now = datetime.datetime.now()
     if (now.hour == 11):
         subject = "Practical scheduled REMAINDER"
